@@ -1,0 +1,16 @@
+n=int(input())
+m=[]
+l=[int(i) for i in input().split()]
+l.sort()
+for i in range(0,len(l)):
+    for j in range(0,len(l)):
+        s=[]
+        if(i!=j):
+            if(l[i]+l[j]==n):
+                s.append(l[i])
+                s.append(l[j])
+                m.append(s)
+                
+print(m)
+for i in range(0,len(m)//2):
+    print(m[i])
