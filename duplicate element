@@ -1,0 +1,9 @@
+ele=[int(i) for i in input().split()]
+l=[]
+for i in ele:
+    if i not in l:
+        l.append(i)
+       
+for i in l:
+    if(ele.count(i)>1):
+        print("duplicate element is",i)
