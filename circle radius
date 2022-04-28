@@ -1,0 +1,5 @@
+from math import pi
+print("enter radius")
+r=float(input())
+c=pi*r*r
+print("area of cicle",c)
