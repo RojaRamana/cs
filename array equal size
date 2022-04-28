@@ -1,0 +1,6 @@
+x=[int(i) for i in input().split()]
+y=[int(i) for i in input().split()]
+if(len(x)==len(y)):
+    print("equal size")
+else:
+    print("not equal")
