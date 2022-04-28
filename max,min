@@ -1,0 +1,6 @@
+x=[int(i) for i in input().split()]
+x.sort()
+print("first min number")
+print(x[0])
+print("second max number")
+print(x[-2])
